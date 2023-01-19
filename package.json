@@ -18,5 +18,8 @@
   "homepage": "https://github.com/abdulmoizahmedtuc/typescript-practice#readme",
   "devDependencies": {
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cypress": "^12.3.0"
   }
 }
