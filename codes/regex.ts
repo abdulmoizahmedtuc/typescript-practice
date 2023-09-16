@@ -19,7 +19,7 @@ console.log(myname2.replace(regex2, "someone"));
 // To check range of the dynamic number in the string by cypress through Regex
 // Please uncomment to run below code, it works fine
 
-/*
+/* Test for cypress 
 export class Regex {
   static checkInfoTextClusterCountInBetween(
     itemCount: [number, number],
