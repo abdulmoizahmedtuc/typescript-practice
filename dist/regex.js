@@ -1,0 +1,10 @@
+"use strict";
+const regex = /someone/g;
+const myname = "my name is someone and someone is someone";
+console.log(myname.replace(regex, "SOMEONE"));
+const regex1 = /someonesomeone/gi;
+const myname1 = "my name is Someonesomeone and someone";
+console.log(myname1.replace(regex1, "SOMEONE"));
+const regex2 = /someonesomeone/g;
+const myname2 = "my name is Someonesomeone and someone";
+console.log(myname2.replace(regex2, "someone"));

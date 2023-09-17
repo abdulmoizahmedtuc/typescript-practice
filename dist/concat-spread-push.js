@@ -1,0 +1,16 @@
+"use strict";
+const str1 = "Hello, ";
+const str2 = "world!";
+console.log(result);
+const array01 = [1, 2, 3];
+const array02 = [4, 5, 6];
+const concatenatedArray1 = array01.concat(array02);
+console.log(concatenatedArray1);
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const concatenatedArray2 = [...array1, ...array2];
+console.log(concatenatedArray2);
+const array11 = [1, 2, 3];
+const array22 = [4, 5, 6];
+array11.push(...array22);
+console.log(array11);
