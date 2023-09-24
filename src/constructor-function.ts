@@ -15,7 +15,7 @@ const person2 = new Person('Bob', 25);
 
 // Accessing properties of the created objects
 console.log(person1.name); // Output: Alice
-console.log(person2.age); */  // Output: 25
+console.log(person2.age); */ // Output: 25
 
 /* In the example above:
 
@@ -23,8 +23,8 @@ We define a constructor function called Person that takes two parameters: name a
 Inside the constructor, this refers to the object being created. We assign the name and age parameters to properties of the object.
 We create two instances (person1 and person2) of the Person object using the new keyword. This invokes the constructor and initializes the object properties.
 We access the properties of the created objects using dot notation (person1.name, person2.age).
-Explanation:
 
+Explanation:
 Constructors allow you to create objects with shared characteristics or methods. In the example, both person1 and person2 are instances of the Person object. 
 They have the same structure (properties name and age) but can hold different values. By using a constructor, you can create many such objects without duplicating 
 the initialization code.
